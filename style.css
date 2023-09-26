@@ -19,10 +19,6 @@
   background-size: cover;
 }
 
-.white-letter {
-  color: #eceefa;
-}
-
 .cover-img {
   object-fit: cover;
 }
@@ -33,4 +29,19 @@
 
 .about-card {
   background-color: #ffffff;
+}
+
+.about-border {
+  border-right: #E8E7ED solid 1.5px;
+}
+
+ul.skill {
+  list-style-type: circle;
+}
+
+@media screen and (max-width: 768px) {
+  .about-border {
+    border-right: none;
+    margin-bottom: 30px;
+  }
 }
