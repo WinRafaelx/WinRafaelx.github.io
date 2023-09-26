@@ -1,0 +1,26 @@
+.Top-side {
+  height: 100vh;
+  color: #eceefa;
+
+  /* background-image: url("https://i.pinimg.com/originals/f6/7d/fe/f67dfefbf70944d426cebf2f5d0b1a3a.jpg");  */
+  background:linear-gradient(
+          rgba(0, 0, 0, 0.3), 
+          rgba(0, 0, 0, 0.3)
+        ),
+        url("https://i.pinimg.com/originals/f6/7d/fe/f67dfefbf70944d426cebf2f5d0b1a3a.jpg");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+
+.white-letter {
+  color: #eceefa;
+}
+
+.cover-img {
+  object-fit: cover;
+}
+
+.About {
+  background-color: #faf9ff;
+}
