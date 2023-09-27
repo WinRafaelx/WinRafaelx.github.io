@@ -9,13 +9,13 @@
   color: #eceefa;
 
   /* background-image: url("https://i.pinimg.com/originals/f6/7d/fe/f67dfefbf70944d426cebf2f5d0b1a3a.jpg");  */
-  background:linear-gradient(
-          rgba(0, 0, 0, 0.3), 
-          rgba(0, 0, 0, 0.3)
-        ),
-        url("https://i.pinimg.com/originals/f6/7d/fe/f67dfefbf70944d426cebf2f5d0b1a3a.jpg");
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
+  background: linear-gradient(rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)),
+    url("https://i.pinimg.com/originals/f6/7d/fe/f67dfefbf70944d426cebf2f5d0b1a3a.jpg");
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
   background-size: cover;
 }
 
@@ -24,6 +24,10 @@
 }
 
 .About {
+  background-color: #faf9ff;
+}
+
+.Portfolio {
   background-color: #faf9ff;
 }
 
@@ -39,9 +43,56 @@ ul.skill {
   list-style-type: circle;
 }
 
+.img-port {
+  border-radius: 10px;
+  max-width: 400px;
+  height: 400px;
+}
+
 @media screen and (max-width: 768px) {
   .about-border {
     border-right: none;
     margin-bottom: 30px;
   }
+
+  .img-port {
+    border-radius: 10px;
+    margin: 10px auto;
+    max-width: 80%;
+    max-height: 400px;
+    object-fit: cover;
+  }
+}
+
+.img-src-1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)),
+    url("https://i.pinimg.com/564x/10/ed/97/10ed977f4f15ae512cd7b849ae2869c4.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.img-src-2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)),
+    url("https://i.pinimg.com/564x/4d/93/14/4d931411711a19fecfc7cec7c258a30e.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.img-src-3 {
+  background: linear-gradient(rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)),
+    url("https://i.pinimg.com/564x/4e/ab/9b/4eab9b0f98227687e00b66fd3f92fd32.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.img-src-4 {
+  background: linear-gradient(rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)),
+    url("https://i.pinimg.com/564x/39/1a/02/391a02d8d1507cea8be508de5c043a6f.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
