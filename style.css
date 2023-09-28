@@ -23,11 +23,7 @@
   object-fit: cover;
 }
 
-.About {
-  background-color: #faf9ff;
-}
-
-.Portfolio {
+.About .Portfolio .Contact {
   background-color: #faf9ff;
 }
 
@@ -72,6 +68,7 @@ ul.skill {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .img-src-2 {
   background: linear-gradient(rgba(0, 0, 0, 0.3),
       rgba(0, 0, 0, 0.3)),
@@ -80,6 +77,7 @@ ul.skill {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .img-src-3 {
   background: linear-gradient(rgba(0, 0, 0, 0.3),
       rgba(0, 0, 0, 0.3)),
@@ -88,6 +86,7 @@ ul.skill {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .img-src-4 {
   background: linear-gradient(rgba(0, 0, 0, 0.3),
       rgba(0, 0, 0, 0.3)),
@@ -95,4 +94,17 @@ ul.skill {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.icon-button {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.icon-button:hover {
+  color: #343353;
+}
+
+input::placeholder {
+  padding-left: 20px;
 }
