@@ -8,10 +8,9 @@
   height: 100vh;
   color: #eceefa;
 
-  /* background-image: url("https://i.pinimg.com/originals/f6/7d/fe/f67dfefbf70944d426cebf2f5d0b1a3a.jpg");  */
   background: linear-gradient(rgba(0, 0, 0, 0.3),
       rgba(0, 0, 0, 0.3)),
-    url("https://i.pinimg.com/originals/f6/7d/fe/f67dfefbf70944d426cebf2f5d0b1a3a.jpg");
+    url("./img/bg.jpg");
   background-position: center;
   /* Center the image */
   background-repeat: no-repeat;
@@ -31,9 +30,6 @@
   background-color: #ffffff;
 }
 
-.about-border {
-  border-right: #E8E7ED solid 1.5px;
-}
 
 ul.skill {
   list-style-type: circle;
@@ -46,9 +42,8 @@ ul.skill {
 }
 
 @media screen and (max-width: 768px) {
-  .about-border {
-    border-right: none;
-    margin-bottom: 30px;
+  .margin-up-button {
+    margin-top: 20px;
   }
 
   .img-port {
@@ -63,7 +58,7 @@ ul.skill {
 .img-src-1 {
   background: linear-gradient(rgba(0, 0, 0, 0.3),
       rgba(0, 0, 0, 0.3)),
-    url("https://i.pinimg.com/564x/10/ed/97/10ed977f4f15ae512cd7b849ae2869c4.jpg");
+    url("./img/game.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -72,7 +67,7 @@ ul.skill {
 .img-src-2 {
   background: linear-gradient(rgba(0, 0, 0, 0.3),
       rgba(0, 0, 0, 0.3)),
-    url("https://i.pinimg.com/564x/4d/93/14/4d931411711a19fecfc7cec7c258a30e.jpg");
+    url("./img/Doctor.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -81,7 +76,7 @@ ul.skill {
 .img-src-3 {
   background: linear-gradient(rgba(0, 0, 0, 0.3),
       rgba(0, 0, 0, 0.3)),
-    url("https://i.pinimg.com/564x/4e/ab/9b/4eab9b0f98227687e00b66fd3f92fd32.jpg");
+    url("./img/animee.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -90,7 +85,7 @@ ul.skill {
 .img-src-4 {
   background: linear-gradient(rgba(0, 0, 0, 0.3),
       rgba(0, 0, 0, 0.3)),
-    url("https://i.pinimg.com/564x/39/1a/02/391a02d8d1507cea8be508de5c043a6f.jpg");
+    url("./img/design.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -105,6 +100,10 @@ ul.skill {
   color: #343353;
 }
 
+.carousal-bg {
+  background-color: #EAEAEA;
+}
+
 input::placeholder {
-  padding-left: 20px;
+  padding-left: 10px;
 }
