@@ -22,7 +22,7 @@
   object-fit: cover;
 }
 
-.About .Portfolio .Contact {
+.About .Contact {
   background-color: #faf9ff;
 }
 
@@ -100,7 +100,7 @@ ul.skill {
   color: #343353;
 }
 
-.carousal-bg {
+.Portfolio  {
   background-color: #EAEAEA;
 }
 

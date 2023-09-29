@@ -26,32 +26,36 @@
   <body>
     <!-- Top -->
     <section class="Top-side">
-      <div class="container border-bottom">
-        <header class="d-flex flex-wrap justify-content-center py-3">
+      <nav class="navbar navbar-expand-lg ">
+        <div class="container py-3 border-bottom">
           <a
             href="/"
-            class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
+            class="d-flex align-items-center ms-2 mb-md-0 me-auto link-body-emphasis text-decoration-none"
           >
             <span class="fs-4 text-white fw-bolder">MawinS.</span>
           </a>
-
-          <ul class="nav nav-pills">
-            <li class="nav-item">
-              <a href="#About" class="nav-link fw-semibold text-warning"
-                >About</a
-              >
-            </li>
-            <li class="nav-item">
-              <a href="#Portfolio" class="nav-link text-white fw-semibold"
-                >Portfolio</a
-              >
-            </li>
-            <li class="nav-item">
-              <a href="#Contact" class="nav-link text-white fw-semibold">Contact</a>
-            </li>
-          </ul>
-        </header>
-      </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars text-light fs-3 mb-2"></i>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarTogglerDemo02">
+            <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
+              <li class="nav-item mx-2">
+                <a href="#About" class="nav-link fw-semibold text-warning"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item mx-2">
+                <a href="#Portfolio" class="nav-link text-white fw-semibold"
+                  >Portfolio</a
+                >
+              </li>
+              <li class="nav-item mx-2">
+                <a href="#Contact" class="nav-link text-white fw-semibold">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
       <div
         class="container d-flex align-items-center justify-content-center text-center h-75"
       >
@@ -94,7 +98,7 @@
     <section class="About pb-5 pt-4" id="About">
       <div class="container">
         <div class="pt-5 ps-4 fw-bolder fs-1">About Me</div>
-        <div class="row">
+        <div class="row m-2">
           <div class="col-md-5 col-lg-4 text-center">
             <img
               src="./img/me_real.jpg"
@@ -212,13 +216,13 @@
     </section>
 
     <!-- Portfolio -->
-    <section class="Portfolio pt-2 pb-5" id="Portfolio">
+    <section class="Portfolio mt-2 mb-5" id="Portfolio">
       <div class="container">
-        <div class="pt-5 ps-4 fw-bolder mb-4 fs-1">Portfolio</div>
+        <div class="pt-4 ps-4 fw-bolder mb-2 fs-1">Portfolio</div>
       </div>
       <div
         id="carouselExampleDark"
-        class="carousel slide carousel-dark carousal-bg p-3"
+        class="carousel slide carousel-dark p-3"
         data-bs-touch="false"
         data-bs-interval="false"
       >
